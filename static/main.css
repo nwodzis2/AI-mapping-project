@@ -1,0 +1,33 @@
+#gulf{
+    color: white;
+    margin-top: -5%;
+    margin-left: 40%;
+    position: absolute;
+    font-size: 12px;
+}
+#atlantic{
+    color: white;
+    margin-top: -12%;
+    margin-left: 55%;
+    transform: rotate(90deg);
+    position: absolute;
+    font-size: 12px;
+}
+#pacific{
+    color: white;
+    margin-top: -15%;
+    margin-left: -2%;
+    transform: rotate(90deg);
+    position: absolute;
+    font-size: 12px;
+}
+@media only screen and (max-width: 600px) {
+    #gulf{
+        margin-top: -7%;
+        margin-left: 60%;
+    }
+    #atlantic{
+        margin-top: -12%;
+        margin-left: 85%;
+    }
+}
